@@ -13,4 +13,27 @@ section {
 section p {
   max-width: 75%;
   margin: 16px auto;
+}
+
+.scroller__navigation {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.scroller__navigation ul {
+  list-style: none;
+}
+.scroller__navigation ul li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 255, 0.525);
+  cursor: pointer;
+}
+.scroller__navigation ul li + li {
+  margin-top: 10px;
+}
+.scroller__navigation ul .active {
+  background-color: blue;
 }/*# sourceMappingURL=styles.css.map */
