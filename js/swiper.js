@@ -30,8 +30,6 @@ class Swiper {
         const diffX = this.initialX - currentX;
         const diffY = this.inicialY - currentY;
 
-        console.log(diffX);
-        console.log(diffY);
         if (Math.abs(diffX) > Math.abs(diffY)) {
             //jestesmy w osi X
             if (diffX > 0){
